@@ -1,2 +1,2 @@
-# pfsenserdshaconfig
+# pfSense RDS Multigateway Config
 Setting up a metro stretched pfsense for rds or a website

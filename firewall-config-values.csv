@@ -1,0 +1,19 @@
+Name,Value,Comment
+customerid,LAB,Customer ID
+mspid,MSP,MSP ID
+primarywanlocation,FR,Priamry WAN ID
+secondarywanlocation,RH,Secondary WAN ID
+timezone,America/Toronto,Firewall Time Zone
+primarywaninterface,vmx0,Primary WAN Interface (Don't change order number! Just chane if needed)
+primarywanip,204.12.52.107/26,Primary WAN IP Address
+secondarywaninterface,vmx2,Secondary WAN Interface (Don't change order number! Just chane if needed)
+secondarywanip,173.238.217.184/25,Secondary WAN IP Address
+laninterface,vmx1,LAN Interface (Don't change order number! Just chane if needed)
+lanip,172.16.86.1/24,LAN IP Address
+snmp,publicLABsnmp,SNMP
+rdsgateway,172.16.86.2,IP of RDS Gateway
+mspsnmp,204.16.195.77,IP of SNMP Server
+mspaliashosts,38.112.70.142 142.124.79.133 173.238.217.154 204.16.195.124,IPs that are allowed to access firewall
+mspaliashostsdetails,MSP_HQ_Cogent||MSP_HQ_Bell||MSP_RH_Pcolo||MSP_FR_Pcolo,Details of the allowed IPs to access firewall in order
+primarywangatewayaddr,204.12.52.65,Primary WAN Gateway IP Address
+secondarywangatewayaddr,173.238.217.129,Secondary WAN Gateway IP Address

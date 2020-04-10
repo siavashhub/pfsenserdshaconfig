@@ -116,16 +116,16 @@
   <dhcpd>
     <lan>
       <range>
-        <from>172.16.46.10</from>
-        <to>172.16.46.245</to>
+        <from></from>
+        <to></to>
       </range>
     </lan>
   </dhcpd>
   <dhcpdv6>
     <lan>
       <range>
-        <from>::1000</from>
-        <to>::2000</to>
+        <from></from>
+        <to></to>
       </range>
       <ramode>assist</ramode>
       <rapriority>medium</rapriority>

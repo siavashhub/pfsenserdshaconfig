@@ -7,4 +7,4 @@ When you are setting up the pfsense firewall choose interfaces in order > WAN, L
 
 The password for the wifi would be 1GaS$h3Ez5 after restore.
 
-If you know how I can do this directly on firewall with ssh instead of using backup and restore config file please let me know.
+If you know how I can do this directly on firewall with ssh instead of using backup and restore config file please let me know, otherwise I'm thinking of maybe using ansible if supported!

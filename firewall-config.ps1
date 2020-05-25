@@ -127,7 +127,7 @@ if ($fwcfg.pfsense.interfaces.wan.gateway -eq $primarywangateway) {
 } else {
     Write-Host "Primary WAN gateway will change to $primarywangateway"  -ForegroundColor Red
     $primarywangatewayconfig = 1
-    $configflag = 1n
+    $configflag = 1
 }
 
 if ($fwcfg.pfsense.interfaces.lan.if -eq $values.laninterface) {

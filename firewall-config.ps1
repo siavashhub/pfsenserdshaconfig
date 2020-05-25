@@ -131,25 +131,25 @@ if ($fwcfg.pfsense.interfaces.wan.gateway -eq $primarywangateway) {
 }
 
 if ($fwcfg.pfsense.interfaces.lan.if -eq $values.laninterface) {
-    Write-Host "Primary WAN interface is already configured"  -ForegroundColor Green
+    Write-Host "Primary LAN interface is already configured"  -ForegroundColor Green
 } else {
-    Write-Host "Primary WAN interface will change to $($values.laninterface)"  -ForegroundColor Red
+    Write-Host "Primary LAN interface will change to $($values.laninterface)"  -ForegroundColor Red
     $laninterfaceconfig = 1
     $configflag = 1
 }
 
 if ($fwcfg.pfsense.interfaces.lan.ipaddr -eq $lanipaddr) {
-    Write-Host "Primary WAN IP address is already configured"  -ForegroundColor Green
+    Write-Host "Primary LAN IP address is already configured"  -ForegroundColor Green
 } else {
-    Write-Host "Primary WAN IP address will change to $lanipaddr"  -ForegroundColor Red
+    Write-Host "Primary LAN IP address will change to $lanipaddr"  -ForegroundColor Red
     $lanipaddrconfig = 1
     $configflag = 1
 }
 
 if ($fwcfg.pfsense.interfaces.lan.subnet -eq $lansubnet) {
-    Write-Host "Primary WAN subnet is already configured"  -ForegroundColor Green
+    Write-Host "Primary LAN subnet is already configured"  -ForegroundColor Green
 } else {
-    Write-Host "Primary WAN subnet will change to $lansubnet"  -ForegroundColor Red
+    Write-Host "Primary LAN subnet will change to $lansubnet"  -ForegroundColor Red
     $lansubnetconfig = 1
     $configflag = 1
 }

@@ -1,7 +1,7 @@
 # pfSense RDS Multigateway Config
 Setting up a metro stretched pfsense for rds or a website
 
-Fill the CSV with desired configuration and the powershell script will change the config file for you.
+Fill the CSV with desired configuration and run the powershell script will change the config file for you.
 
 When you are setting up the pfsense firewall choose interfaces in order > WAN, LAN, OPT1
 

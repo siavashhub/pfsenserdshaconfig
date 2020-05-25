@@ -5,7 +5,7 @@ Fill the CSV with desired configuration and the powershell script will change th
 
 When you are setting up the pfsense firewall choose interfaces in order > WAN, LAN, OPT1
 
-The password for the wifi would be 1GaS$h3Ez5 after restore.
+The password for the firewall would be 1GaS$h3Ez5 after restore.
 
 If you know how I can do this directly on firewall with ssh instead of using backup and restore config file please let me know, otherwise I'm thinking of maybe using ansible if supported!
 

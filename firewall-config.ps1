@@ -934,7 +934,7 @@ if($configflag -eq 1){
   
         if ($secondarywangatewaynameconfig -eq 1) {
             Write-Log INFO "Configuring Secondary WAN gateway name to $secondarywangateway..."
-            ($fwcfg.pfsense.gateways.gateway_item | Where-Object {$_.interface -eq "opt1"}).name -eq $secondarywangateway
+            ($fwcfg.pfsense.gateways.gateway_item | Where-Object {$_.interface -eq "opt1"}).name = $secondarywangateway
         } else {
             Write-Log INFO "Skipping Secondary WAN gateway name configuration."
         }
